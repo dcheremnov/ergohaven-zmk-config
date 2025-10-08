@@ -6,9 +6,9 @@
 
 &mt {
     flavor = "tap-preferred";
-    tapping-term-ms = <200>;
+    tapping-term-ms = <150>;
     hold-trigger-key-positions = <25 26 27 28 31 32 33 34>;
-    require-prior-idle-ms = <150>;
+    require-prior-idle-ms = <100>;
     quick-tap-ms = <0>;
 };
 
@@ -59,7 +59,7 @@
         sym {
             bindings = <
 &trans  &trans    &kp AT    &kp DLLR   &kp HASH  &trans                          &trans     &trans    &kp CARET  &trans    &trans    &trans
-&trans  &trans    &kp LT    &kp EQUAL  &kp GT    &kp GRAVE                       &trans     &kp LBKT  &kp UNDER  &kp RBKT  &trans    &trans
+&trans  &trans    &kp LT    &kp EQUAL  &kp GT    &kp GRAVE                       &kp QMARK  &kp LBKT  &kp UNDER  &kp RBKT  &trans    &trans
 &trans  &kp BSLH  &kp LPAR  &kp MINUS  &kp RPAR  &kp PLUS                        &kp PRCNT  &kp LBRC  &kp SEMI   &kp RBRC  &kp EXCL  &trans
 &trans  &trans    &kp STAR  &kp COLON  &kp FSLH  &trans     &trans    &kp SPACE  &trans     &kp PIPE  &kp TILDE  &kp AMPS  &trans    &trans
                   &trans    &trans     &trans    &mo 3      &trans    &trans     &trans     &trans    &trans     &trans
