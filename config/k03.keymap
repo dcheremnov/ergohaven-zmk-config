@@ -5,10 +5,10 @@
 #include <dt-bindings/zmk/outputs.h>
 
 &mt {
-    flavor = "tap-preferred";
+    flavor = "balanced";
     tapping-term-ms = <150>;
     hold-trigger-key-positions = <25 26 27 28 31 32 33 34>;
-    require-prior-idle-ms = <100>;
+    require-prior-idle-ms = <125>;
     quick-tap-ms = <0>;
 };
 
