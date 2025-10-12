@@ -46,8 +46,8 @@
             label = "STICKY_SHIFT";
             bindings = <&kp>;
             #binding-cells = <1>;
-            lazy;
-            release-after-ms = <200>;
+            release-after-ms = <1000>;
+            quick-release;
         };
 
         sticky_hold_tap: sticky_hold_tap {
